@@ -57,10 +57,10 @@
     function yesAction() {
       //document.body.style.background = '#ff007f';
 	  document.body.style.backgroundImage = "url('image.jpg')";
-	  document.body.style.backgroundSize = "cover";
+	  // document.body.style.backgroundSize = "cover";
       document.getElementById('dialogMsg').textContent = 'Good Choice, Amio tomayyy valubasiii!!';
 	  const myButton = document.getElementById('naBtn');
-	  myButton.disabled = true;
+	  myButton.style.display = 'none';
       // Re-center dialog
       // const dialog = document.getElementById('dialog');
       // dialog.style.left = '50%';
@@ -94,5 +94,6 @@
   </script>
 </body>
 </html>
+
 
 
